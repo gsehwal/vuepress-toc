@@ -1,7 +1,12 @@
 # VuePress-Start
 
 *Starter template for a [VuePress](https://vuepress.vuejs.org) site*  
-You need node >= 8.0.0, yarn and vuepress installed and an account for Github and Netlify to follow this example.
+Node >= 8.0.0, yarn and vuepress installed and an account for Github and Netlify to follow this example.
+You can check that on your computer:  
+$ node -v  
+$ yarn -v  
+$ vuepress  
+
 
 ## Quickstart 
 
