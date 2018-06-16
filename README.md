@@ -12,9 +12,12 @@ $ node --version
 $ yarn --version  
 $ vuepress --version
 
+If you see a version number then the software is installed otherwise you need to download and install  
 
-### Global Installation
+[Node Installation](https://nodejs.org/en/download/)
+[Yarn Installation](https://yarnpkg.com/lang/en/docs/install/#windows-stable)
 
+#### Global Installation of VuePress
 yarn global add vuepress # OR npm install -g vuepress  
 
 
