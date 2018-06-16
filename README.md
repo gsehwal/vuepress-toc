@@ -6,7 +6,7 @@
 
 Node >= 8, Yarn and VuePress should be installed before you start. We also need a free Github and Netlify account to follow this example.  
 
-You can check that on your computer with: 
+You can check that on your computer in your terminal: 
 
 $ node -version  
 $ yarn -version  
