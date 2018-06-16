@@ -4,7 +4,7 @@
 
 ## Requirements  
 
-Node >= 8.0.0, yarn and vuepress installed and an account for Github and Netlify to follow this example.
+Node >= 8, yarn, vuepress should be installed. We also need a Github and Netlify account to follow this example.
 You can check that on your computer:  
 $ node -v  
 $ yarn -v  
