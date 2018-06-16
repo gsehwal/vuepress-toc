@@ -4,8 +4,10 @@
 
 ## Requirements  
 
-Node >= 8, yarn, vuepress should be installed. We also need a Github and Netlify account to follow this example.
-You can check that on your computer:  
+Node >= 8, Yarn and vuepress should be installed. We also need a Github and Netlify account to follow this example.  
+
+You can check that on your computer: 
+
 $ node -v  
 $ yarn -v  
 $ vuepress  
