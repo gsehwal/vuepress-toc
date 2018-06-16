@@ -46,14 +46,34 @@ Documentation of other free server deployments like GitHub, Firebase, Heroku you
 To try it out locally, clone this repo and generate a static site
 
 ```bash
-git clone https://github.com/iwilfried/vuepress-boilerplate
-cd vuepress-boilerplate
-yarn or yarn install
-yarn dev
+# Clone the repo
+$ git clone https://github.com/iwilfried/vuepress-minimalistic.git
+$ cd vuepress-minimalistic
 
-You can also generate the static assets using the following command.
+# Install dependencies
+$ yarn  # or npm install
 
-yarn build
+# Run
+$ yarn dev  # or npm run dev
+```
+
+Check your site at `http://127.0.0.1:8080/`
+
+## Local Development
+
+To try it out locally, clone this repo and generate a static site
+
+```bash
+
+$ npm install -g vuepress
+
+git clone https://github.com/iwilfried/vuepress-minimalistic
+cd vuepress-minimalistic
+npm install
+
+$ vuepress dev
+or
+$ vuepress build -> .vuepress/dist
 ```
 
 For more information, see [VuePress Docs](https://vuepress.vuejs.org)
