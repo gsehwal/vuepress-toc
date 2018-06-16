@@ -12,9 +12,9 @@ $ node --version
 $ yarn --version  
 $ vuepress --version
 
+
 ### Global Installation
 
-# install globally
 yarn global add vuepress # OR npm install -g vuepress  
 
 
