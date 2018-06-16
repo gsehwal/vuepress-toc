@@ -12,7 +12,7 @@ $ node --version
 $ yarn --version  
 $ vuepress --version
 
-
+if you need to update..
 
 ## Quickstart 
 
