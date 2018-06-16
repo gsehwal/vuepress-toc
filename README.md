@@ -1,7 +1,6 @@
 # VuePress-Start
 
-*Starter template for a [VuePress](https://vuepress.vuejs.org) site*  
-This is a Starter template for a VuePress and it integrates the NetlifyCMS with VuePress.
+*This is a Starter template for a [VuePress](https://vuepress.vuejs.org) site and it integrates the NetlifyCMS with VuePress.*  
 
 ## Requirements  
 
