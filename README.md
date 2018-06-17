@@ -65,25 +65,13 @@ $ yarn  # or npm install
 
 # Run
 $ yarn dev  # or npm run dev
+
+# Build
+$ vuepress build  #OR npm run build  (-> .vuepress/dist)
 ```
 
 Check your site at `http://127.0.0.1:8080/`
 
-## Local Development
-
-To try it out locally, clone this repo and generate a static site
-
-```bash
-
-git clone https://github.com/iwilfried/vuepress-minimalistic
-cd vuepress-minimalistic
-npm install
-
-$ vuepress dev
-or
-$ vuepress build -> .vuepress/dist
-
-```
 
 For more information, see [VuePress Docs](https://vuepress.vuejs.org)
 
