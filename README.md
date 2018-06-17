@@ -18,7 +18,7 @@ $ yarn --version
 $ vuepress --version
 
 ```
-If you see a version number on your screen then the software is installed. If not then you need to download and install it. 
+If you see a version number on your screen then the software is installed. If not, then you need to download and install it. 
 
 [Node Installation](https://nodejs.org/en/download/)  
 [Yarn Installation](https://yarnpkg.com/lang/en/docs/install/#windows-stable)  
