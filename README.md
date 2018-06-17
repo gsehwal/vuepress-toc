@@ -24,13 +24,12 @@ If you see a version number on your screen then the software is installed. If no
 
 [Node Installation](https://nodejs.org/en/download/)  
 [Yarn Installation](https://yarnpkg.com/lang/en/docs/install/#windows-stable)  
-[VuePress Installation](https://vuepress.vuejs.org/)  
 [VuePress Installation](https://www.npmjs.com/package/vuepress )  
 
 
 ## Updating software
-https://yarnpkg.com/en/docs/cli/upgrade  
-https://www.npmjs.com/package/vuepress
+[Yarn Update](https://yarnpkg.com/en/docs/cli/upgrade)  
+[VuePress 'Update](https://www.npmjs.com/package/vuepress)
 
 ```bash
 nvm install 8.1.0 ( or any other version number)
