@@ -22,25 +22,19 @@ If you see a version number on your screen then the software is installed. If no
 
 [Node Installation](https://nodejs.org/en/download/)  
 [Yarn Installation](https://yarnpkg.com/lang/en/docs/install/#windows-stable)  
-[VuePress Installation](https://www.npmjs.com/package/vuepress )
+[VuePress Installation](https://www.npmjs.com/package/vuepress )  
 
-#### Global Installation of VuePress  
-```
-yarn global add vuepress # OR npm install -g vuepress  
-
-nvm install 8.1.0
-
-https://www.npmjs.com/package/vuepress  
-
-npm install vuepress
-
-```
 ## Updating software
-https://yarnpkg.com/en/docs/cli/upgrade  
-```
-yarn upgrade --latest
+https://yarnpkg.com/en/docs/cli/upgrade 
+https://www.npmjs.com/package/vuepress
 
 ```
+nvm install 8.1.0 ( or any version number)
+yarn upgrade --latest
+yarn global add vuepress # OR npm install -g vuepress
+
+```
+
 
 ## Quickstart 
 
