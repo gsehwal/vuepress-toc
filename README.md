@@ -60,13 +60,13 @@ $ git clone https://github.com/iwilfried/vuepress-boilerplate.git
 $ cd vuepress-boilerplate
 
 # Install dependencies
-$ yarn  # or npm install
+$ yarn  # OR npm install
 
 # Run
-$ yarn dev  # or npm run dev
+$ yarn dev  # OR npm run dev
 
 # Build
-$ vuepress build  #OR npm run build  (-> .vuepress/dist)
+$ yarn build  # OR npm run build  (-> .vuepress/dist)
 ```
 
 Check your site at `http://127.0.0.1:8080/`
