@@ -6,6 +6,10 @@
 
 **Node >= 8**, **Yarn** and **VuePress** should be installed before you start. We also need a free **Github** and **Netlify** account to follow this example.  
 
+WARNING
+
+It is currently recommended to use Yarn instead of npm when installing VuePress into an existing project that has webpack 3.x as a dependency. Npm fails to generate the correct dependency tree in this case.
+
 You can check that on your computer in your terminal: 
 
 $ node --version  
@@ -22,6 +26,8 @@ If you see a version number then the software is installed otherwise you need to
 
 yarn global add vuepress # OR npm install -g vuepress  
 
+nvm install 8.1.0
+npm install vuepress
 
 if you need to update..https://yarnpkg.com/en/docs/cli/upgrade  
 yarn upgrade --latest
