@@ -35,8 +35,7 @@ yarn global add vuepress # OR npm install -g vuepress
 
 ```
 
-
-## Quickstart 
+# Quickstart 
 
 Use the one-click deploy button and get a copy of this base-template as a repositary in your own GitHub account and additionally
 a live-server version on Netlify for free. Every change in the GitHub README.md file will automatically cause a change 
