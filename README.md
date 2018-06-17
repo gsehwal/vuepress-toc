@@ -23,7 +23,9 @@ If you see a version number then the software is installed otherwise you need to
 yarn global add vuepress # OR npm install -g vuepress  
 
 
-if you need to update..
+if you need to update..https://yarnpkg.com/en/docs/cli/upgrade  
+yarn upgrade --latest
+
 
 ## Quickstart 
 
