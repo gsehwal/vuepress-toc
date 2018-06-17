@@ -25,11 +25,11 @@ If you see a version number on your screen then the software is installed. If no
 [VuePress Installation](https://www.npmjs.com/package/vuepress )  
 
 ## Updating software
-https://yarnpkg.com/en/docs/cli/upgrade 
+https://yarnpkg.com/en/docs/cli/upgrade  
 https://www.npmjs.com/package/vuepress
 
-```
-nvm install 8.1.0 ( or any version number)
+```bash
+nvm install 8.1.0 ( or any other version number)
 yarn upgrade --latest
 yarn global add vuepress # OR npm install -g vuepress
 
@@ -57,8 +57,8 @@ To try it out locally, clone this repo and generate a static site
 
 ```bash
 # Clone the repo
-$ git clone https://github.com/iwilfried/vuepress-minimalistic.git
-$ cd vuepress-minimalistic
+$ git clone https://github.com/iwilfried/vuepress-boilerplate.git
+$ cd vuepress-boilerplate
 
 # Install dependencies
 $ yarn  # or npm install
@@ -75,8 +75,6 @@ To try it out locally, clone this repo and generate a static site
 
 ```bash
 
-$ npm install -g vuepress
-
 git clone https://github.com/iwilfried/vuepress-minimalistic
 cd vuepress-minimalistic
 npm install
@@ -84,6 +82,7 @@ npm install
 $ vuepress dev
 or
 $ vuepress build -> .vuepress/dist
+
 ```
 
 For more information, see [VuePress Docs](https://vuepress.vuejs.org)
