@@ -43,7 +43,7 @@ Use the one-click deploy button and get a copy of this base-template as a reposi
 a live-server version on Netlify for free. Every change in the GitHub README.md file will automatically cause a change 
 on this server.
 
-## [Example View on Netlify](https://nifty-williams-038c26.netlify.com/)
+### [Example View on Netlify](https://nifty-williams-038c26.netlify.com/)
 
 
 ## One-click Deploy
