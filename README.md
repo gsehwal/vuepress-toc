@@ -80,15 +80,15 @@ Check your site at `http://127.0.0.1:8080/`
 Now take some time to review the directory /docs/.vuepress in your project. Think of this directory as your Vue App as this is where you go if you need to extend VuePress.  
 
 .  
-|--gitignore  
-|--LICENSE  
-|--README.md  
-|--docs  
-|&nbsp;&nbsp;&nbsp;|--README.md  
-|&nbsp;&nbsp;&nbsp;|--Welcome.md  
-|--netlify.toml  
-|--package.json  
-|--yarn.lock  
+|---gitignore  
+|---LICENSE  
+|---README.md  
+|---docs  
+|&nbsp;&nbsp;&nbsp;&nbsp;|--README.md  
+|&nbsp;&nbsp;&nbsp;&nbsp;|--Welcome.md  
+|---netlify.toml  
+|---package.json  
+|---yarn.lock  
 
 
 
