@@ -29,7 +29,7 @@ Otherwise you need to download and install
 [VuePress Installation](https://www.npmjs.com/package/vuepress )  
 
 
-## Updating software
+## Updating Software
 [Yarn Update](https://yarnpkg.com/en/docs/cli/upgrade)  
 [VuePress 'Update](https://www.npmjs.com/package/vuepress)
 
@@ -76,6 +76,19 @@ $ yarn build  # OR npm run build  (-> .vuepress/dist)
 ```
 
 Check your site at `http://127.0.0.1:8080/`
+
+Now take some time to review the directory /docs/.vuepress in your project. Think of this directory as your Vue App as this is where you go if you need to extend VuePress.  
+
+.
+|--LICENSE
+|--README.md
+|--docs
+|  |--README.md
+
+
+
+
+
 
 
 For more information, see [VuePress Docs](https://vuepress.vuejs.org)
