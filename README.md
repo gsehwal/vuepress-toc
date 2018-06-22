@@ -10,9 +10,10 @@
 
 <br />
 
-**Node >= 8**, **Yarn** and **VuePress** should be installed before you start. We also need a free **Github** and **Netlify** account to follow this example.  
+**Node >= 8**, **Yarn** and **VuePress** should be installed before you start.  
+We also need a free **Github** and **Netlify** account to follow this example.  
 
-You can check you have the software already installed on your computer: 
+You can check, the software is already installed on your computer: 
 Type in your terminal
 
 ```
@@ -20,7 +21,8 @@ $ node --version
 $ yarn --version  
 $ vuepress --version
 ```
-If you see a version number on your screen then the software is installed. If not, then you need to download and install it. 
+If you see a version number on your screen then the software is installed.  
+Otherwise you need to download and install 
 
 [Node Installation](https://nodejs.org/en/download/)  
 [Yarn Installation](https://yarnpkg.com/lang/en/docs/install/#windows-stable)  
