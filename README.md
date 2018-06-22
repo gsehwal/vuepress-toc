@@ -92,6 +92,10 @@ Now take some time to review the directory /docs/.vuepress in your project. Thin
 |---yarn.lock  
 
 
+Let's start by explaining the meaning of some of these files.  
+
+### netlify.toml  
+
 
 
 
