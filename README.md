@@ -85,6 +85,7 @@ Now take some time to review the directory /docs/.vuepress in your project. Thin
 |---README.md  
 |---docs  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---README.md  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---test.md  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---Welcome.md  
 |---netlify.toml  
 |---package.json  
