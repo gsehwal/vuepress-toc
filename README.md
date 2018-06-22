@@ -84,8 +84,8 @@ Now take some time to review the directory /docs/.vuepress in your project. Thin
 |--LICENSE  
 |--README.md  
 |--docs  
-|  |--README.md  
-|  |--Welcome.md  
+|&nbsp;&nbsp;|--README.md  
+|&nbsp;&nbsp;|--Welcome.md  
 |--netlify.toml  
 |--package.json  
 |--yarn.lock  
