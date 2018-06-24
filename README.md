@@ -21,7 +21,17 @@ Node >= 8, Yarn and VuePress should be installed before you start.
 We also need a free **Github** and **Netlify** account to follow this example  
 :::  
 <br />
+::: tip
+This is a tip
+:::
 
+::: warning
+This is a warning
+:::
+
+::: danger
+This is a dangerous warning
+:::
 
 
 
