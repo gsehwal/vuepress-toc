@@ -18,10 +18,10 @@ $ yarn --version
 $ vuepress --version
 ```  
 
-C:\Users\code\vuepress-boilerplate (master -> origin) (vuepress-boilerplate@1.0.0)
-λ node -v
+C:\Users\code\vuepress-boilerplate (master -> origin) (vuepress-boilerplate@1.0.0)  
+λ node -v  
 **v8.11.3**  
-
+<br />
 If you see a version number on your screen then the software is installed.  
 Otherwise you need to download and install 
 
