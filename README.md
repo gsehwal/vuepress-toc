@@ -9,7 +9,7 @@
 :::  
 
 <br />
-::: tip
+::: tip  
 **Node >= 8**, **Yarn** and **VuePress** should be installed before you start.  
 We also need a free **Github** and **Netlify** account to follow this example.  
 :::
