@@ -33,7 +33,19 @@ This is a warning
 This is a dangerous warning
 :::
 
+```
+::: tip
+This is a tip
+:::
 
+::: warning
+This is a warning
+:::
+
+::: danger
+This is a dangerous warning
+:::
+```
 
 You can check, the software is already installed on your computer: 
 Type in your terminal
