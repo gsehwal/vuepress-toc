@@ -8,43 +8,8 @@
 *It is currently recommended to use Yarn instead of npm when installing VuePress into an **existing project** that has webpack 3.x as a dependency. Npm fails to generate the correct dependency tree in this case.*
 :::  
 
-<br />
 
-::: info
-It is currently recommended to use Yarn instead of npm when installing VuePress into an **existing project** that has webpack 3.x as a dependency. Npm fails to generate the correct dependency tree in this case.
-:::  
 
-<br />
-
-::: danger  
-Node >= 8, Yarn and VuePress should be installed before you start.  
-We also need a free **Github** and **Netlify** account to follow this example  
-:::  
-<br />
-::: tip
-This is a tip
-:::
-
-::: warning
-This is a warning
-:::
-
-::: danger
-This is a dangerous warning
-:::
-
-```
-::: tip
-This is a tip
-:::
-
-::: warning
-This is a warning
-:::
-
-::: danger
-This is a dangerous warning
-:::
 ```
 
 You can check, the software is already installed on your computer: 
