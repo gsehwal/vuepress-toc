@@ -9,13 +9,10 @@
 :::  
 
 
-
-```
-
 You can check, the software is already installed on your computer: 
 Type in your terminal
 
-```
+```bash
 $ node --version  
 $ yarn --version  
 $ vuepress --version
