@@ -18,7 +18,6 @@ $ yarn --version
 $ vuepress --version
 ```  
 
-C:\Users\code\vuepress-boilerplate (master -> origin) (vuepress-boilerplate@1.0.0)  
 λ node -v  
 **v8.11.3**  
 <br />
