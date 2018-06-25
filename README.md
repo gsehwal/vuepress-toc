@@ -76,8 +76,8 @@ $ yarn build  # OR npm run build  (-> .vuepress/dist)
 ```
 
 Check your site at `http://127.0.0.1:8080/`
-
-Now take some time to review the directory /docs/.vuepress in your project. Think of this directory as your Vue App as this is where you go if you need to extend VuePress.  
+<br />
+Now take some time to review the directory /docs.  
 
 .  
 |---gitignore  
