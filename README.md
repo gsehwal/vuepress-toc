@@ -75,10 +75,10 @@ $ yarn dev  # OR npm run dev
 $ yarn build  # OR npm run build  (-> .vuepress/dist)
 ```
 
-Check your site at `http://127.0.0.1:8080/`
+Check your site at `http://127.0.0.1:8080/`  
+
 <br />
 Now take some time to review the directory /docs.  
-
 .  
 |---gitignore  
 |---LICENSE  
