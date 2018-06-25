@@ -109,6 +109,30 @@ command = "yarn docs:build"
 publish = "docs/.vuepress/dist/"  
 ```
 
+This file is used by netlify on deployment. Netlify pulls code from your github repo, and will run command to generate your static site. Once it's complete publish tells it where the public directory is to launch your site.
+
+
+### package.json  
+
+```bash  
+{
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^0.9.0"
+  }
+}  
+
+
+
+```
+
+
+
+
+
 
 
 
