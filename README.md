@@ -80,6 +80,7 @@ $ yarn build  # OR npm run build  (-> .vuepress/dist)
 Check your site at `http://127.0.0.1:8080/`  or `localhost://8080`
 
 <br />
+
 ## Review of the files in the project-directory 
 
 .  
@@ -96,6 +97,9 @@ Check your site at `http://127.0.0.1:8080/`  or `localhost://8080`
 
 
 Let's start by explaining the meaning of some of these files.  
+
+<br />
+<br />
 
 ### netlify.toml  
 
