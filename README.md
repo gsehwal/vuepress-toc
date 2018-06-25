@@ -87,7 +87,7 @@ Check your site at `http://127.0.0.1:8080/`  or `localhost://8080`
 |---gitignore  
 |---LICENSE  
 |---README.md  
-|---docs  
+|---**docs**  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---README.md  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---test.md  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---Welcome.md  
