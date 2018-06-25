@@ -80,7 +80,7 @@ $ yarn build  # OR npm run build  (-> .vuepress/dist)
 Check your site at `http://127.0.0.1:8080/`  or `localhost://8080`
 
 <br />
-Review of the files in the project-directory 
+## Review of the files in the project-directory 
 
 .  
 |---gitignore  
