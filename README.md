@@ -124,12 +124,9 @@ This file is used by netlify on deployment. Netlify pulls code from your github 
     "vuepress": "^0.9.0"
   }
 }  
-
-
-
 ```
 
-
+This file is the standard VuePress settings that you would have if you followed the official Vue Press installation guide.
 
 
 
