@@ -121,12 +121,19 @@ This file is used by netlify on deployment. Netlify pulls code from your github 
     "docs:build": "vuepress build docs"
   },
   "devDependencies": {
-    "vuepress": "^0.9.0"
+    "vuepress": "^0.10.1"
   }
 }  
 ```
 
 This file is the standard VuePress settings that you would have if you followed the official Vue Press installation guide.
+
+### /docs  
+
+|---docs  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---README.md  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---test.md  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---Welcome.md  
 
 
 
