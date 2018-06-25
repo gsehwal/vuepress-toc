@@ -130,15 +130,21 @@ This file is the standard VuePress settings that you would have if you followed 
 
 ### /docs  
 
-|---docs  
+|---**docs**  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---README.md  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---test.md  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---Welcome.md  
 
+<br />  
 
 Lastly, the docs folder contains actual markdown files that will make up the content of our site itself. These files are committed to github, and netlify's cms will work with these via a CMS that we will have setup by the end of this tutorial.  
 
-If you review these files, note that README.md is different than the other two because it's serving as the home page for the site. VuePress reads front matter to configure this post differently. There are a lot more options you can configure using these properties but I'll leave that to you to read the VuePress docs.
+If you review these files, note that README.md is different than the other two because it's serving as the home page for the site. VuePress reads front matter to configure this post differently. There are a lot more options you can configure using these properties but I'll leave that to you to read the VuePress docs.  
+
+
+
+
+
 
 
 
