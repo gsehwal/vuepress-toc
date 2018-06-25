@@ -99,8 +99,7 @@ Check your site at `http://127.0.0.1:8080/`  or `localhost://8080`
 
 Let's start by explaining the meaning of some of these files.  
 
-<br />
-If you want to use the One-Click Deploy option, then you need a netlify.toml file.  
+If you want to use the **One-Click Deploy** option, then you need a `netlify.toml` file.  
 
 ### netlify.toml  
 
