@@ -1,6 +1,6 @@
 ---
 home: true 
-heroImage: /images/vuejsradar.png
+heroImage: /images/heroimage.png
 actionText: Try it Out →
 actionLink: /welcome
 features:
