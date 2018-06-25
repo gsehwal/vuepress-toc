@@ -7,13 +7,13 @@
     
     "scripts": {
       "clean": "rimraf .vuepress/dist/*",
-      "dev": "vuepress dev",
-      "build": "vuepress build",
-      "test": "rm -rf .vuepress/dist && yarn build && stat .vuepress/dist/index.html"
+      "docs:dev": "vuepress dev docs",
+      "docs:build": "vuepress build docs",
+      "test": "rm -rf docs/.vuepress/dist && yarn build && stat docs/.vuepress/dist/index.html"
     },
     
     "devDependencies": {
-      "vuepress": "^0.10.1"
+      "vuepress": "^0.10.2"
     },
     "dependencies": {
       "markdown-it": "^8.4.1",
