@@ -95,12 +95,12 @@ Check your site at `http://127.0.0.1:8080/`  or `localhost://8080`
 |---package.json  
 |---yarn.lock  
 
+<br />  
 
 Let's start by explaining the meaning of some of these files.  
 
 <br />
-<br />
-
+If you want to use the one click deploy option, then you need a netlify.toml file.  
 ### netlify.toml  
 
 
