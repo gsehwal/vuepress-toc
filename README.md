@@ -105,8 +105,8 @@ If you want to use the **One-Click Deploy** option, then Netlify needs a `netlif
 
 ```bash
 [build]  
-&nbsp;&nbsp;command = "yarn docs:build"  
-&nbsp;&nbsp;publish = "docs/.vuepress/dist/"  
+command = "yarn docs:build"  
+publish = "docs/.vuepress/dist/"  
 ```
 
 
