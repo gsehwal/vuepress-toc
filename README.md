@@ -56,7 +56,9 @@ Documentation of other free server deployments like GitHub Pages, Gitlab Pages, 
 you can find under 
 [vuepress.vuejs.org/guide/deploy](https://vuepress.vuejs.org/guide/deploy.html)
 
-## Local Development
+<br />
+
+# Local Development
 
 To try it out locally, clone this repo and generate a static site
 
@@ -75,10 +77,11 @@ $ yarn dev  # OR npm run dev
 $ yarn build  # OR npm run build  (-> .vuepress/dist)
 ```
 
-Check your site at `http://127.0.0.1:8080/`  
+Check your site at `http://127.0.0.1:8080/`  or `localhost://8080`
 
 <br />
-Now take some time to review the directory /docs.  
+Review of the files in the project-directory 
+
 .  
 |---gitignore  
 |---LICENSE  
