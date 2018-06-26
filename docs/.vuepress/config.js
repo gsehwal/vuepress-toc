@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Netlify CMS + VuePress',
-  description: 'Netlify + VuePress',
+  title: 'VuePress Boilerplate',
+  description: 'VuePress + Netlify',
   themeConfig: {
     docsDir: 'docs',
     repo: 'iwilfried/vuepress-boilerplate'
