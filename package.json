@@ -9,7 +9,7 @@
       "clean": "rimraf .vuepress/dist/*",
       "docs:dev": "vuepress dev docs",
       "docs:build": "vuepress build docs",
-      "test": "rm -rf docs/.vuepress/dist && yarn build && stat docs/.vuepress/dist/index.html"
+      "test": "rm -rf docs/.vuepress/dist && yarn docs:build && stat docs/.vuepress/dist/index.html"
     },
     
     "devDependencies": {
