@@ -1,7 +1,12 @@
 ---
 title: Welcome to the VuePress + Netlify Example 
----
+---  
 
+<a href="https://vuepress.vuejs.org/" target="_blank" rel="nofollow">
+    <img width="280" src="https://raw.githubusercontent.com/vuejs/vuepress/master/docs/.vuepress/public/hero.png" alt="logo" />
+  </a>  
+  
+  
 # VuePress
 
 *This is a Starter template for a [VuePress](https://vuepress.vuejs.org) site and it integrates the NetlifyCMS with VuePress.*  
