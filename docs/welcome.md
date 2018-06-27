@@ -93,7 +93,7 @@ Check your site at `http://127.0.0.1:8080/`  or `localhost://8080`
 |---README.md  
 |---**docs**  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---README.md   
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---Welcome.md  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---welcome.md  
 |---netlify.toml  
 |---package.json  
 |---yarn.lock  
@@ -134,9 +134,8 @@ This file is the standard VuePress settings that you would have if you followed 
 ### /docs  
 
 |---**docs**  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---README.md  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---test.md  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---Welcome.md  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---README.md   
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---welcome.md  
 
 <br />  
 
