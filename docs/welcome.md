@@ -1,7 +1,6 @@
 ---
 title: Welcome to the VuePress + Netlify Example 
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum  
 
 # VuePress
 
@@ -27,14 +26,14 @@ $ vuepress --version
 **v8.11.3**  
 <br />
 If you see a version number on your screen then the software is installed.  
-Otherwise you need to download and install 
+Otherwise you need to download and install it.
 
 [Node Installation](https://nodejs.org/en/download/)  
 [Yarn Installation](https://yarnpkg.com/lang/en/docs/install/#windows-stable)  
 [VuePress Installation](https://www.npmjs.com/package/vuepress )  
 
 
-## Updating Software
+## Updating Installed Software
 [Yarn Update](https://yarnpkg.com/en/docs/cli/upgrade)  
 [VuePress 'Update](https://www.npmjs.com/package/vuepress)
 
@@ -47,7 +46,7 @@ yarn global add vuepress # OR npm install -g vuepress
 # Quickstart 
 
 Use the one-click deploy button and get a copy of this base-template as a repositary in your own GitHub account and additionally
-a live-server version on Netlify for free. Every change in the GitHub README.md file will automatically cause a change 
+a live-server version on Netlify for free. Every change in the GitHub README.md file will then automatically get a change 
 on this server.
 
 ### [Life Demo on Netlify](https://nifty-williams-038c26.netlify.com/)
@@ -93,8 +92,7 @@ Check your site at `http://127.0.0.1:8080/`  or `localhost://8080`
 |---LICENSE  
 |---README.md  
 |---**docs**  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---README.md  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---test.md  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---README.md   
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---Welcome.md  
 |---netlify.toml  
 |---package.json  
