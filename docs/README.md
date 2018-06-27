@@ -5,7 +5,7 @@ actionText: Try it Out →
 actionLink: /welcome
 features:
 - title: Markdown Editing 
-  details: VuePress works with markdown-it. https://www.npmjs.com/package/markdown-it 
+  details: VuePress works with markdown-it. [markdown-it](https://www.npmjs.com/package/markdown-it) 
 - title: Asset Management 
   details: Easily upload images to your repo with an uploader 
 - title: Powerful Deployments
