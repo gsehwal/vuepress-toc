@@ -5,7 +5,7 @@ actionText: Try it Out →
 actionLink: /welcome
 features:
 - title: Markdown Editing 
-  details: VuePress works with markdown-it.
+  details: Each markdown file is compiled into HTML with markdown-it and then processed as the template of a Vue component. This allows   you to directly use Vue inside your markdown files and is great when you need to embed dynamic content.
 - title: Markdown Editing 
   details: VuePress works with markdown-it.  
 - title: Powerful Deployments
