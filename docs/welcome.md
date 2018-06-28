@@ -39,12 +39,13 @@ Otherwise you need to download and install it.
 [VuePress Installation](https://www.npmjs.com/package/vuepress )  
 
 
-## Updating Installed Software
+## Updating Node, Yarn and VuePress  
+[Node.js](https://nodejs.org/en/)
 [Yarn Update](https://yarnpkg.com/en/docs/cli/upgrade)  
 [VuePress 'Update](https://www.npmjs.com/package/vuepress)
 
 ```bash
-nvm install 8.1.0 ( or any other version number)
+nvm install 8.1.0 (any version number - nvm = Node Version Manager)
 yarn upgrade --latest
 yarn global add vuepress # OR npm install -g vuepress
 ```
