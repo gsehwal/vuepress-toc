@@ -8,8 +8,8 @@ features:
   details: Each markdown file is compiled into HTML with markdown-it and then processed as the template of a Vue component. 
 - title: Features 
   details: Built-in markdown extensions optimized for technical documentation | Multi -language Support | Vue-powered custom theme system | Automatic Service Worker generation and more...
-- title: A default theme with:
-  details: Responsive layout | Optional Homepage | Customizable navbar and sidebar | Auto-generated GitHub link and page edit links
+- title: A default theme with
+  details: Responsive layout | Optional Homepage | Customizable navbar and sidebar | 
 footer: MIT Licensed | Copyright © 2018-present 
 ---
 [![Build Status](https://travis-ci.org/iwilfried/vuepress-boilerplate.svg?branch=master)](https://travis-ci.org/iwilfried/vuepress-boilerplate)
