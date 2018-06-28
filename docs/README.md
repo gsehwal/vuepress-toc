@@ -5,15 +5,9 @@ actionText: Try it Out →
 actionLink: /welcome
 features:
 - title: Markdown Editing 
-  details: Each markdown file is compiled into HTML with markdown-it and then processed as the template of a Vue component. This allows   you to directly use Vue inside your markdown files and is great when you need to embed dynamic content.
+  details: Each markdown file is compiled into HTML with markdown-it and then processed as the template of a Vue component. 
 - title: Features  
-details: Built-in markdown extensions optimized for technical documentation - 
-Ability to leverage Vue inside markdown files - 
-Vue-powered custom theme system - 
-Automatic Service Worker generation - 
-Google Analytics Integration - 
-"Last Updated" based on Git - 
-Multi-language support.
+  details: Built-in markdown extensions optimized for technical documentation - Multi-language support.
 footer: MIT Licensed | Copyright © 2018-present 
 ---
 [![Build Status](https://travis-ci.org/iwilfried/vuepress-boilerplate.svg?branch=master)](https://travis-ci.org/iwilfried/vuepress-boilerplate)
