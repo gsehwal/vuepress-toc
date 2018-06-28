@@ -11,6 +11,8 @@ title: Welcome to the VuePress + Netlify Example
 
 *This is a Starter template for a [VuePress](https://vuepress.vuejs.org) site and it integrates the NetlifyCMS with VuePress.*  
 
+VuePress is focused on content-centric static sites and provides features tailored for technical documentation out of the box.
+
 ## Requirements  
 
 ::: tip
