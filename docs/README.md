@@ -9,9 +9,8 @@ features:
 - title: Features 
   details: Built-in markdown extensions optimized for technical documentation | Multi -language Support | Vue-powered custom theme system | Automatic Service Worker generation and more...
 - title: A default theme with
-  details: Responsive layout | Optional Homepage | Customizable navbar and sidebar | 
-  
-footer: MIT Licensed | Copyright © 2018-present 
+  details: Responsive layout | Optional Homepage | Customizable navbar and sidebar | Auto-generated GitHub link and page edit links  
+  footer: MIT Licensed | Copyright © 2018-present 
 ---
 [![Build Status](https://travis-ci.org/iwilfried/vuepress-boilerplate.svg?branch=master)](https://travis-ci.org/iwilfried/vuepress-boilerplate)
 <a href="https://www.npmjs.org/package/markdown-it" rel="nofollow"><img src="https://img.shields.io/npm/v/markdown-it.svg?style=flat" alt="NPM version" /> </a> &nbsp; 
