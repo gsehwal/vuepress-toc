@@ -20,8 +20,7 @@ VuePress is focused on content-centric static sites and provides features tailor
 :::  
 
 
-You can check, the software is already installed on your computer: 
-Type in your terminal
+You can check, if Node, Yarn and Vuepress is already installed with: 
 
 ```bash
 $ node --version  
@@ -64,12 +63,15 @@ on this server.
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/iwilfried/vuepress-boilerplate)
 
 Documentation of other free server deployments like GitHub Pages, Gitlab Pages, Gitlab CLI, Google Firebase, Surge, Heroku 
-you can find under 
-[vuepress.vuejs.org/guide/deploy](https://vuepress.vuejs.org/guide/deploy.html)
+you can find under [vuepress.vuejs.org/guide/deploy](https://vuepress.vuejs.org/guide/deploy.html)
 
-<br />
+<br />  
 
-# Local Development
+``If you edit the files in Github direct, the changes are automatically done on the server too.``
+
+<br /> 
+
+# Local Development - Getting Started
 
 To try it out locally, clone this repo and generate a static site
 
