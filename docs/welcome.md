@@ -123,7 +123,7 @@ Calling npx <command> when <command> isn’t already in your $PATH will automati
 
 Switch to your browser and go to this URL: http://localhost:8080/
 
-You can see the Hello World. Here # means h1 tag equivalent to HTML. It is simple Markdown syntax.
+You can see the Hello World. Here # means h1 tag equivalent to **HTML**. It is simple Markdown syntax.
 
 You can add the scripts to **package.json** file.
 ```bash
@@ -134,16 +134,11 @@ You can add the scripts to **package.json** file.
   }
 }  
 ```
-Now, stop the server by control + c and then start the server with the following command.
+Now, stop the server by **control + c** and then start the server with the following command.
 
-RELATED POSTS
-Nuxt js Laravel Authentication Tutorial With Example
-
-Jun 22, 2018
-Vue Datatable Component Example
-
-Jun 7, 2018
+```bash
 npm run docs:dev
+```
 You can also generate the static assets using the following command.
 
 npm run docs:build
