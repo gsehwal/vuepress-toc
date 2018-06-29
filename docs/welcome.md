@@ -121,22 +121,19 @@ npx vuepress dev docs
 ```
 Calling npx <command> when <command> isn’t already in your $PATH will automatically install a package with that name from the npm registry for you, and invoke it.  
 
-<br /><br /><br /><br /><br /><br />
-
-## VuePress Example Tutorial
-
 Switch to your browser and go to this URL: http://localhost:8080/
 
 You can see the Hello World. Here # means h1 tag equivalent to HTML. It is simple Markdown syntax.
 
 You can add the scripts to **package.json** file.
-
+```bash
 {
   "scripts": {
     "docs:dev": "vuepress dev docs",
     "docs:build": "vuepress build docs"
   }
-}
+}  
+```
 Now, stop the server by control + c and then start the server with the following command.
 
 RELATED POSTS
