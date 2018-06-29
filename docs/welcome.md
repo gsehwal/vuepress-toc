@@ -183,7 +183,8 @@ Okay, now create second Markdown file inside docs folder called Demo.md. Write t
 ```
 Now, see the project in the browser.
 
- ![](./images/helloWorld.png)
+ ![](./images/helloWorldImage.png)
+ ![](https://github.com/iwilfried/vuepress-boilerplate/blob/master/docs/.vuepress/public/images/helloWorldImage.png)
 
 VuePress Markdown Tutorial
 
