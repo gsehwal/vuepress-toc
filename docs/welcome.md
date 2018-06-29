@@ -74,8 +74,7 @@ you can find under [vuepress.vuejs.org/guide/deploy](https://vuepress.vuejs.org/
 
 # Local Development - Getting Started  
 
-### **Step 1:** 
-Install VuePress.  
+### Step 1: Install VuePress.  
 Create a project directory called vpress.
 
 ```bash
@@ -103,8 +102,7 @@ Now, open the project in your favorite editor.
 ```bash
 code .  
 ```
-### **Step 2:** 
-Create a folder inside the root.
+### Step 2: Create a folder inside the root.
 Inside the project root folder, create one folder called docs.
 
 Now, in that folder, make one **markdown** file called a **README.md**.
@@ -116,8 +114,7 @@ In the **README.md** file, just write the following line of code.
 ```
 Okay, now we need to run the project.
 
-### Step 3: 
-Run the Project in development server.  
+### Step 3: Run the Project in development server.  
 
 Go into your root folder, and open the terminal and hit the following command.  
 
