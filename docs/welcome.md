@@ -29,12 +29,14 @@ $ vuepress --version
 ```  
 ```bash
 $ node -v  
-**v8.11.3**
+v8.11.3
 ```  
 
 <br />
 If you see a version number on your screen then the software is installed.  
-Otherwise you need to download and install it.
+Otherwise you need to download and install it.  
+
+## Installing Node, Yarn and VuePress  
 
 [Node Installation](https://nodejs.org/en/download/)  
 [Yarn Installation](https://yarnpkg.com/lang/en/docs/install/#windows-stable)  
