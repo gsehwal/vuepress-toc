@@ -54,6 +54,7 @@ nvm install 8.1.0 (any version number - nvm = Node Version Manager)
 yarn upgrade --latest
 yarn global add vuepress # OR npm install -g vuepress
 ```
+<br />  
 
 # Quickstart 
 
