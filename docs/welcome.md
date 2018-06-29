@@ -122,6 +122,9 @@ In the **README.md** file, just write the following line of code.
 ```
 Okay, now we need to run the project.
 
+### Step 3: 
+Run the Project in development server.  
+
 Go into your root folder, and open the terminal and hit the following command.  
 
 ```bash
