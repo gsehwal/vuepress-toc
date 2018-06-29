@@ -40,7 +40,7 @@ Otherwise you need to download and install it.
 ## Updating Node, Yarn and VuePress  
 [Node Update](https://nodejs.org/en/)  
 [Yarn Update](https://yarnpkg.com/en/docs/cli/upgrade)  
-[VuePress 'Update](https://www.npmjs.com/package/vuepress)  
+[VuePress Update](https://www.npmjs.com/package/vuepress)  
 
 
 ```bash
@@ -99,29 +99,27 @@ Now, open the project in your favorite editor.
 
 ```bash
 code .  
-```
+```  
+
 ### Step 2: Create a folder inside the root.
 Inside the project root folder, create one folder called docs.
-
 Now, in that folder, make one **markdown** file called a **README.md**.
-
 In the **README.md** file, just write the following line of code.  
 
 ```bash
 # Hello World  
 ```
-Okay, now we need to run the project.
+Okay, now we need to run the project.  
+
 
 ### Step 3: Run the Project in development server.  
-
 Go into your root folder, and open the terminal and hit the following command.  
 
 ```bash
 npx vuepress dev docs  
-```
-Calling npx <command> when <command> isn’t already in your $PATH will automatically install a package with that name from the npm registry for you, and invoke it.  
+```Calling npx <command> when <command> isn’t already in your $PATH will automatically install a package with that name from the npm registry for you, and invoke it.  
 
-Switch to your browser and go to this URL: http://localhost:8080/
+`Switch to your browser and go to this URL: http://localhost:8080/`
 
 You can see the Hello World. Here # means h1 tag equivalent to **HTML**. It is simple Markdown syntax.
 
