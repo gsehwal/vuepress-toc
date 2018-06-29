@@ -198,10 +198,3 @@ In future, we will build an entirely static website with the help of VuePress.
 
 ### Conclusion
 It is the perfect framework for the creating technical documentation and blog. It is server-side rendered so entirely SEO friendly. VuePress Tutorial For Beginners is over.
-
-
-
-
-
-
-
