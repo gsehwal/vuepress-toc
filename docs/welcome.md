@@ -78,7 +78,40 @@ you can find under [vuepress.vuejs.org/guide/deploy](https://vuepress.vuejs.org/
 
 <br /> 
 
-# Local Development - Getting Started
+# Local Development - Getting Started  
+
+Step 1: Install VuePress.
+Create a project directory called vpress.
+
+```bash
+mkdir vpress
+```
+Go into that directory.  
+
+```bash
+cd vpress
+```bash  
+
+I am using Yarn as a package manager, so let us pull the package using the following command.  
+
+```bash
+yarn add vuepress
+```  
+
+If you are not using Yarn, then you can pull through NPM.
+```bash
+npm install vuepress --save  
+```
+Now, open the project in your favorite editor.
+
+
+
+
+
+
+
+
+
 
 To try it out locally, clone this repo and generate a static site
 
