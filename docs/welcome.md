@@ -183,11 +183,15 @@ Okay, now create second Markdown file inside docs folder called Demo.md. Write t
 ```
 Now, see the project in the browser.
 
- ![](./images/helloWorld.png)
+ ![](./images/helloWorldImage.png)
+ ![](https://github.com/iwilfried/vuepress-boilerplate/blob/master/docs/.vuepress/public/images/helloWorldImage.png)
 
 VuePress Markdown Tutorial
 
 You can see here, the content is displaying in the browser and after clicking that link, we can redirect to a new route, and that is Demo.html. 
+
+![](./images/helloWorld.png)  
+
 
 We have not defined any route but still, VuePress takes that second file as another route, and after clicking that link we redirect to that page. How cool is that!! It automatically figures it out by itself.
 
