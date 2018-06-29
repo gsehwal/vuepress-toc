@@ -127,6 +127,9 @@ Go into your root folder, and open the terminal and hit the following command.
 ```bash
 npx vuepress dev docs  
 ```
+Calling npx <command> when <command> isn’t already in your $PATH will automatically install a package with that name from the npm registry for you, and invoke it.  
+
+<br /><br /><br /><br /><br /><br />
 
 ## VuePress Example Tutorial
 
