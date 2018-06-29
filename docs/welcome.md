@@ -28,7 +28,7 @@ $ yarn --version
 $ vuepress --version
 ```  
 
-λ node -v  
+#### $ node -v  
 **v8.11.3**  
 <br />
 If you see a version number on your screen then the software is installed.  
