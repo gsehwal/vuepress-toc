@@ -175,10 +175,12 @@ README.md
 ```
 You can see, now we can see the image in our page.  You can check out the more options here.
 
-Step 6: Create second md file inside docs folder.
+### Step 6: Create second md file inside docs folder.
 Okay, now create second Markdown file inside docs folder called Demo.md. Write the following line inside that file and save it.
 
-# This is second demo
+```bash
+# This is second demo  
+```
 Now, see the project in the browser.
 
  ![](./images/helloWorld.png)
