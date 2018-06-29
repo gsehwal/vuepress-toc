@@ -160,16 +160,19 @@ module.exports = {
 Okay, if your development server is running, then you can see that the page now has a header with the title and a search box.  
 VuePress comes with built-in headers-based search – it automatically builds a simple search index from the title, h2, and h3 headers from all the pages.
 
-## VuePress  
+![](https://github.com/iwilfried/vuepress-boilerplate/blob/master/docs/.vuepress/public/images/helloWorld.png)  
+
 There are more configurations that you can apply, for example, base, title, head, Google Analytics, Port number and other stuff.
 
 ### Step 5: Asset Handling  
+
 In our project, docs folder is mainly reacting as a root folder, so we need to create one folder called images inside docs folder, and them move any local image to that folder. We can access using this syntax.
 
-![](./images/helloWorld.png)
-![](https://github.com/iwilfried/vuepress-boilerplate/blob/master/docs/.vuepress/public/images/helloWorld.png)
-
-![An image](./images/Krunal.jpg)
+```bash
+README.md  
+# Hello World  
+![An image](./images/Krunal.jpg)  
+```
 You can see, now we can see the image in our page.  You can check out the more options here.
 
 Step 6: Create second md file inside docs folder.
@@ -178,7 +181,7 @@ Okay, now create second Markdown file inside docs folder called Demo.md. Write t
 # This is second demo
 Now, see the project in the browser.
 
- 
+ ![](./images/helloWorld.png)
 
 VuePress Markdown Tutorial
 
