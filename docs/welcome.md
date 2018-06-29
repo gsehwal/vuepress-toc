@@ -48,7 +48,7 @@ nvm install 8.1.0 (any version number - nvm = Node Version Manager)
 yarn upgrade --latest
 yarn global add vuepress # OR npm install -g vuepress
 ```
-<br /><br /> 
+
 
 # Quickstart 
 
@@ -68,7 +68,7 @@ you can find under [vuepress.vuejs.org/guide/deploy](https://vuepress.vuejs.org/
 
 ``If you edit the files in Github direct, the changes are automatically done on the server too.``
 
-<br /> 
+
 
 # Local Development - Getting Started  
 
@@ -183,190 +183,18 @@ Okay, now create second Markdown file inside docs folder called Demo.md. Write t
 ```
 Now, see the project in the browser.
 
- ![](./images/helloWorldImage.png)
- ![](https://github.com/iwilfried/vuepress-boilerplate/blob/master/docs/.vuepress/public/images/helloWorldImage.png)
+ ![](./images/HelloWorldImage.png)
+ ![](https://github.com/iwilfried/vuepress-boilerplate/blob/master/docs/.vuepress/public/images/HelloWorldImage.png)
 
 VuePress Markdown Tutorial
 
-You can see here, the content is displaying in the browser and after clicking that link, we can redirect to a new route, and that is Demo.html. 
-
-![](./images/helloWorld.png)  
-
+You can see here, the content is displaying in the browser and after clicking that link, we can redirect to a new route, and that is **Demo.html**.   
 
 We have not defined any route but still, VuePress takes that second file as another route, and after clicking that link we redirect to that page. How cool is that!! It automatically figures it out by itself.
 
-You can check out the markdown extensions. It is handy for creating content.
+You can check out the [markdown extensions](https://vuepress.vuejs.org/guide/markdown.html). It is handy for creating content.
 
 In future, we will build an entirely static website with the help of VuePress.
 
-Conclusion
+### Conclusion
 It is the perfect framework for the creating technical documentation and blog. It is server-side rendered so entirely SEO friendly. VuePress Tutorial For Beginners is over.
-
- 
-
-VueVue js
- 
-Krunal
-I am Web Developer and Blogger. I have created this website for the web developers to understand complex concepts in an easy manner.
-
- PREV POST
-
-How To Deploy Nodejs App To Heroku
-
-NEXT POST 
-
-Laravel Datatables Tutorial With Example
-
-YOU MIGHT ALSO LIKE More From Author
-VUEJS
-Nuxt js Laravel Authentication Tutorial With Example
-
-VUEJS
-Vue Datatable Component Example
-
-VUEJS
-Vue Notification Tutorial
-
-
-LEAVE A REPLY
-Your email address will not be published.
-
-
-Your Comment
-
-
-Your Name *
-
-Your Email *
-
-Your Website
-
-This site uses Akismet to reduce spam. Learn how your comment data is processed.
-
-
-Like This Page
-
-Tags
-Angular 4Laravel 5.4ReduxWebpackReact.js TutorialAxiosmongodbAngular 5React NativeVueexpressES6ReactReact.jsAngularVue jsNode.jsLaravel 5.5Laravel 5.6Laravel
-Stay With Us
-Facebook
-Likes
-198
-Followers
-47
-Followers
-16
-Subscribers
-137
-Followers
-10
-Followers
-134
-Followers
-Linkedin
-Follow us
-201
-Posts
-Subscribe For Latest Post
-Name
-
-Email
-
-
-
-
-
-<br /><br /><br /><br /><br /><br />
-
-
-
-To try it out locally, clone this repo and generate a static site
-
-```bash
-# Clone the repo
-$ git clone https://github.com/iwilfried/vuepress-boilerplate.git
-$ cd vuepress-boilerplate
-
-# Install dependencies
-$ yarn  # OR npm install
-
-# Run
-$ yarn dev  # OR npm run dev
-
-# Build
-$ yarn build  # OR npm run build  (-> .vuepress/dist)
-```
-
-Check your site at `http://127.0.0.1:8080/`  or `localhost://8080`
-
-<br />
-
-## Review of the files in the project-directory 
-
-.  
-|---gitignore  
-|---LICENSE  
-|---README.md  
-|---**docs**  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---README.md   
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---welcome.md  
-|---netlify.toml  
-|---package.json  
-|---yarn.lock  
-
-<br />  
-
-Let's start by explaining the meaning of some of these files.  
-
-If you want to use the **One-Click Deploy** option, then Netlify needs a `netlify.toml` file.  
-
-### netlify.toml  
-
-```bash
-[build]  
-command = "yarn docs:build"  
-publish = "docs/.vuepress/dist/"  
-```
-
-This file is used by netlify on deployment. Netlify pulls code from your github repo, and will run command to generate your static site. Once it's complete publish tells it where the public directory is to launch your site.
-
-
-### package.json  
-
-```bash  
-{
-  "scripts": {
-    "docs:dev": "vuepress dev docs",
-    "docs:build": "vuepress build docs"
-  },
-  "devDependencies": {
-    "vuepress": "^0.10.2"
-  }
-}  
-```
-
-This file is the standard VuePress settings that you would have if you followed the official Vue Press installation guide.
-
-### /docs  
-
-|---**docs**  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---README.md   
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---welcome.md  
-
-<br />  
-
-Lastly, the docs folder contains actual markdown files that will make up the content of our site itself. These files are committed to github, and netlify's cms will work with these via a CMS that we will have setup by the end of this tutorial.  
-
-If you review these files, note that README.md is different than the other two because it's serving as the home page for the site. VuePress reads front matter to configure this post differently. There are a lot more options you can configure using these properties but I'll leave that to you to read the VuePress docs.  
-
-
-
-
-
-
-
-
-
-For more information, see [VuePress Docs](https://vuepress.vuejs.org)
-
-

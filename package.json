@@ -6,7 +6,7 @@
     "license": "MIT",
     
     "scripts": {
-      "clean": "rimraf .vuepress/dist/*",
+      "clean": "rimraf docs/.vuepress/dist/*",
       "docs:dev": "vuepress dev docs",
       "docs:build": "vuepress build docs",
       "test": "rm -rf docs/.vuepress/dist && yarn docs:build && stat docs/.vuepress/dist/index.html"
