@@ -38,7 +38,7 @@ Otherwise you need to download and install it.
 
 
 ## Updating Node, Yarn and VuePress  
-[Node.js](https://nodejs.org/en/)  
+[Node Update](https://nodejs.org/en/)  
 [Yarn Update](https://yarnpkg.com/en/docs/cli/upgrade)  
 [VuePress 'Update](https://www.npmjs.com/package/vuepress)  
 
