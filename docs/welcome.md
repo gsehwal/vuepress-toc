@@ -19,7 +19,7 @@ VuePress is focused on content-centric static sites and provides features tailor
 *It is currently recommended to use Yarn instead of npm when installing VuePress into an **existing project** that has webpack 3.x as a dependency. Npm fails to generate the correct dependency tree in this case.*
 :::  
 
-You can check, if Node, Yarn and Vuepress is already installed: 
+You can check, if **Node**, **Yarn** and **Vuepress** is already installed: 
 ```bash
 $ node --version  
 $ yarn --version  
@@ -50,7 +50,7 @@ nvm install 8.1.0 (any version number - nvm = Node Version Manager)
 yarn upgrade --latest
 yarn global add vuepress # OR npm install -g vuepress
 ```
-<br />  
+<br /><br /> 
 
 # Quickstart 
 
