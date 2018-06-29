@@ -166,9 +166,8 @@ There are more configurations that you can apply, for example, base, title, head
 ### Step 5: Asset Handling  
 In our project, docs folder is mainly reacting as a root folder, so we need to create one folder called images inside docs folder, and them move any local image to that folder. We can access using this syntax.
 
-**README.md**
-![](helloWorld.png)
-# Hello world
+![](./images/helloWorld.png)
+
 
 ![An image](./images/Krunal.jpg)
 You can see, now we can see the image in our page.  You can check out the more options here.
