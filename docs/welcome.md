@@ -104,7 +104,7 @@ code .
 ### Step 2: Create a folder inside the root.
 Inside the project root folder, create one folder called docs.
 Now, in that folder, make one **markdown** file called a **README.md**.
-In the **README.md** file, just write the following line of code.  
+In the README.md file, just write the following line of code.  
 
 ```bash
 # Hello World  
@@ -112,14 +112,15 @@ In the **README.md** file, just write the following line of code.
 Okay, now we need to run the project.  
 
 
-### Step 3: Run the Project in development server.  
+### Step 3: Run the Project in development server.
 Go into your root folder, and open the terminal and hit the following command.  
 
 ```bash
 npx vuepress dev docs  
-```Calling npx <command> when <command> isn’t already in your $PATH will automatically install a package with that name from the npm registry for you, and invoke it.  
+```  
+Calling npx <command> when <command> isn’t already in your $PATH will automatically install a package with that name from the npm registry for you, and invoke it.  
 
-`Switch to your browser and go to this URL: http://localhost:8080/`
+``Switch to your browser and go to this URL: http://localhost:8080/``
 
 You can see the Hello World. Here # means h1 tag equivalent to **HTML**. It is simple Markdown syntax.
 
@@ -138,26 +139,30 @@ Now, stop the server by **control + c** and then start the server with the follo
 npm run docs:dev
 ```
 You can also generate the static assets using the following command.
+```bash
+npm run docs:build  
+```
+By default, the built files will be in **docs/.vuepress/dist**, which can be configured via the dest field in docs/.vuepress/config.js The created files can be deployed to any static file server.
 
-npm run docs:build
-By default, the built files will be in docs/.vuepress/dist, which can be configured via the dest field in docs/.vuepress/config.js The created files can be deployed to any static file server.
+### Step 4: Configuration.  
+For creating a configuration file, we need to first create a folder inside the docs folder called **.vuepress**.
 
-Step 4: Configuration.
-For creating a configuration file, we need to first create a folder inside the docs folder called .vuepress.
+Inside .vuepress folder, create a  javascript file called **config.js** file.
 
-Inside .vuepress folder, create a  javascript file called config.js file.
-
+```bash
 // config.js
 
 module.exports = {
   title: 'First VuePress Project',
   description: 'Exploring VuePress'
-}
+}  
+``` 
+
 Okay, if your development server is running, then you can see that the page now has a header with the title and a search box. VuePress comes with built-in headers-based search – it automatically builds a simple search index from the title, h2, and h3 headers from all the pages.
 
  
 
-VuePress
+### VuePress
 
 There are more configurations that you can apply, for example, base, title, head, Google Analytics, Port number and other stuff.
 
