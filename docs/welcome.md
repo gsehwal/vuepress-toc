@@ -90,7 +90,7 @@ Go into that directory.
 
 ```bash
 cd vpress
-```bash  
+```  
 
 I am using Yarn as a package manager, so let us pull the package using the following command.  
 
@@ -98,7 +98,8 @@ I am using Yarn as a package manager, so let us pull the package using the follo
 yarn add vuepress
 ```  
 
-If you are not using Yarn, then you can pull through NPM.
+If you are not using Yarn, then you can pull through NPM.  
+
 ```bash
 npm install vuepress --save  
 ```
