@@ -80,7 +80,8 @@ you can find under [vuepress.vuejs.org/guide/deploy](https://vuepress.vuejs.org/
 
 # Local Development - Getting Started  
 
-**Step 1:** Install VuePress.  
+### **Step 1:** 
+Install VuePress.  
 Create a project directory called vpress.
 
 ```bash
@@ -108,7 +109,8 @@ Now, open the project in your favorite editor.
 ```bash
 code .  
 ```
-**Step 2:** Create a folder inside the root.
+### **Step 2:** 
+Create a folder inside the root.
 Inside the project root folder, create one folder called docs.
 
 Now, in that folder, make one **markdown** file called a **README.md**.
