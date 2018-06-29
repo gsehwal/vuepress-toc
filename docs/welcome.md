@@ -188,91 +188,18 @@ Now, see the project in the browser.
 
 VuePress Markdown Tutorial
 
-You can see here, the content is displaying in the browser and after clicking that link, we can redirect to a new route, and that is Demo.html. 
-
-![](./images/helloWorld.png)  
-
+You can see here, the content is displaying in the browser and after clicking that link, we can redirect to a new route, and that is **Demo.html**.   
 
 We have not defined any route but still, VuePress takes that second file as another route, and after clicking that link we redirect to that page. How cool is that!! It automatically figures it out by itself.
 
-You can check out the markdown extensions. It is handy for creating content.
+You can check out the [markdown extensions](https://vuepress.vuejs.org/guide/markdown.html). It is handy for creating content.
 
 In future, we will build an entirely static website with the help of VuePress.
 
-Conclusion
+### Conclusion
 It is the perfect framework for the creating technical documentation and blog. It is server-side rendered so entirely SEO friendly. VuePress Tutorial For Beginners is over.
 
  
-
-VueVue js
- 
-Krunal
-I am Web Developer and Blogger. I have created this website for the web developers to understand complex concepts in an easy manner.
-
- PREV POST
-
-How To Deploy Nodejs App To Heroku
-
-NEXT POST 
-
-Laravel Datatables Tutorial With Example
-
-YOU MIGHT ALSO LIKE More From Author
-VUEJS
-Nuxt js Laravel Authentication Tutorial With Example
-
-VUEJS
-Vue Datatable Component Example
-
-VUEJS
-Vue Notification Tutorial
-
-
-LEAVE A REPLY
-Your email address will not be published.
-
-
-Your Comment
-
-
-Your Name *
-
-Your Email *
-
-Your Website
-
-This site uses Akismet to reduce spam. Learn how your comment data is processed.
-
-
-Like This Page
-
-Tags
-Angular 4Laravel 5.4ReduxWebpackReact.js TutorialAxiosmongodbAngular 5React NativeVueexpressES6ReactReact.jsAngularVue jsNode.jsLaravel 5.5Laravel 5.6Laravel
-Stay With Us
-Facebook
-Likes
-198
-Followers
-47
-Followers
-16
-Subscribers
-137
-Followers
-10
-Followers
-134
-Followers
-Linkedin
-Follow us
-201
-Posts
-Subscribe For Latest Post
-Name
-
-Email
-
-
 
 
 
