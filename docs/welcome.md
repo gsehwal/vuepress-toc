@@ -48,7 +48,7 @@ nvm install 8.1.0 (any version number - nvm = Node Version Manager)
 yarn upgrade --latest
 yarn global add vuepress # OR npm install -g vuepress
 ```
-<br /><br /> 
+
 
 # Quickstart 
 
@@ -68,7 +68,7 @@ you can find under [vuepress.vuejs.org/guide/deploy](https://vuepress.vuejs.org/
 
 ``If you edit the files in Github direct, the changes are automatically done on the server too.``
 
-<br /> 
+
 
 # Local Development - Getting Started  
 
@@ -199,7 +199,7 @@ In future, we will build an entirely static website with the help of VuePress.
 ### Conclusion
 It is the perfect framework for the creating technical documentation and blog. It is server-side rendered so entirely SEO friendly. VuePress Tutorial For Beginners is over.
 
-<br /><br /><br /><br /><br /><br />
+
 
 
 
