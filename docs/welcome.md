@@ -105,6 +105,175 @@ npm install vuepress --save
 ```
 Now, open the project in your favorite editor.
 
+```bash
+code .  
+```
+**Step 2:** Create a folder inside the root.
+Inside the project root folder, create one folder called docs.
+
+Now, in that folder, make one **markdown** file called a **README.md**.
+
+In the **README.md** file, just write the following line of code.  
+
+```bash
+# Hello World  
+```
+Okay, now we need to run the project.
+
+Go into your root folder, and open the terminal and hit the following command.  
+
+```bash
+npx vuepress dev docs  
+```
+
+## VuePress Example Tutorial
+
+Switch to your browser and go to this URL: http://localhost:8080/
+
+You can see the Hello World. Here # means h1 tag equivalent to HTML. It is simple Markdown syntax.
+
+You can add the scripts to **package.json** file.
+
+{
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
+Now, stop the server by control + c and then start the server with the following command.
+
+RELATED POSTS
+Nuxt js Laravel Authentication Tutorial With Example
+
+Jun 22, 2018
+Vue Datatable Component Example
+
+Jun 7, 2018
+npm run docs:dev
+You can also generate the static assets using the following command.
+
+npm run docs:build
+By default, the built files will be in docs/.vuepress/dist, which can be configured via the dest field in docs/.vuepress/config.js The created files can be deployed to any static file server.
+
+Step 4: Configuration.
+For creating a configuration file, we need to first create a folder inside the docs folder called .vuepress.
+
+Inside .vuepress folder, create a  javascript file called config.js file.
+
+// config.js
+
+module.exports = {
+  title: 'First VuePress Project',
+  description: 'Exploring VuePress'
+}
+Okay, if your development server is running, then you can see that the page now has a header with the title and a search box. VuePress comes with built-in headers-based search – it automatically builds a simple search index from the title, h2, and h3 headers from all the pages.
+
+ 
+
+VuePress
+
+There are more configurations that you can apply, for example, base, title, head, Google Analytics, Port number and other stuff.
+
+Step 5: Asset Handling
+In our project, docs folder is mainly reacting as a root folder, so we need to create one folder called images inside docs folder, and them move any local image to that folder. We can access using this syntax.
+
+README.md
+
+# Hello world
+
+![An image](./images/Krunal.jpg)
+You can see, now we can see the image in our page.  You can check out the more options here.
+
+Step 6: Create second md file inside docs folder.
+Okay, now create second Markdown file inside docs folder called Demo.md. Write the following line inside that file and save it.
+
+# This is second demo
+Now, see the project in the browser.
+
+ 
+
+VuePress Markdown Tutorial
+
+You can see here, the content is displaying in the browser and after clicking that link, we can redirect to a new route, and that is Demo.html. 
+
+We have not defined any route but still, VuePress takes that second file as another route, and after clicking that link we redirect to that page. How cool is that!! It automatically figures it out by itself.
+
+You can check out the markdown extensions. It is handy for creating content.
+
+In future, we will build an entirely static website with the help of VuePress.
+
+Conclusion
+It is the perfect framework for the creating technical documentation and blog. It is server-side rendered so entirely SEO friendly. VuePress Tutorial For Beginners is over.
+
+ 
+
+VueVue js
+ 
+Krunal
+I am Web Developer and Blogger. I have created this website for the web developers to understand complex concepts in an easy manner.
+
+ PREV POST
+
+How To Deploy Nodejs App To Heroku
+
+NEXT POST 
+
+Laravel Datatables Tutorial With Example
+
+YOU MIGHT ALSO LIKE More From Author
+VUEJS
+Nuxt js Laravel Authentication Tutorial With Example
+
+VUEJS
+Vue Datatable Component Example
+
+VUEJS
+Vue Notification Tutorial
+
+
+LEAVE A REPLY
+Your email address will not be published.
+
+
+Your Comment
+
+
+Your Name *
+
+Your Email *
+
+Your Website
+
+This site uses Akismet to reduce spam. Learn how your comment data is processed.
+
+
+Like This Page
+
+Tags
+Angular 4Laravel 5.4ReduxWebpackReact.js TutorialAxiosmongodbAngular 5React NativeVueexpressES6ReactReact.jsAngularVue jsNode.jsLaravel 5.5Laravel 5.6Laravel
+Stay With Us
+Facebook
+Likes
+198
+Followers
+47
+Followers
+16
+Subscribers
+137
+Followers
+10
+Followers
+134
+Followers
+Linkedin
+Follow us
+201
+Posts
+Subscribe For Latest Post
+Name
+
+Email
 
 
 
