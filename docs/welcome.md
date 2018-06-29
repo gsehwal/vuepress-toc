@@ -9,9 +9,8 @@ title: Welcome to the VuePress + Netlify Example
   
 # VuePress
 
-*This is a Starter template for a [VuePress](https://vuepress.vuejs.org) site and it integrates the NetlifyCMS with VuePress.*  
-
-VuePress is focused on content-centric static sites and provides features tailored for technical documentation out of the box.
+*This is a Starter template for a [VuePress](https://vuepress.vuejs.org) site and it integrates the NetlifyCMS with VuePress. 
+VuePress is focused on content-centric static sites and provides features tailored for technical documentation out of the box.*
 
 ## Requirements  
 
@@ -35,8 +34,7 @@ Otherwise you need to download and install it.
 ## Installing Node, Yarn and VuePress  
 
 ##### [Node Installation](https://nodejs.org/en/download/)  
-##### [Yarn Installation](https://yarnpkg.com/lang/en/docs/install/#windows-stable)  
-##### [VuePress Installation](https://www.npmjs.com/package/vuepress )  
+##### [Yarn Installation](https://yarnpkg.com/lang/en/docs/install/#windows-stable)##### [VuePress Installation](https://www.npmjs.com/package/vuepress )  
 
 
 ## Updating Node, Yarn and VuePress  
