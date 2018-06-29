@@ -167,7 +167,7 @@ There are more configurations that you can apply, for example, base, title, head
 In our project, docs folder is mainly reacting as a root folder, so we need to create one folder called images inside docs folder, and them move any local image to that folder. We can access using this syntax.
 
 **README.md**
-
+![](helloWorld.png)
 # Hello world
 
 ![An image](./images/Krunal.jpg)
