@@ -5,10 +5,5 @@ module.exports = {
     docsDir: 'docs',
     repo: 'iwilfried/vuepress-boilerplate'
   },
-    resolve: {
-        alias: {
-            '@alias': '/public/images'
-        }
-    }
 
 }

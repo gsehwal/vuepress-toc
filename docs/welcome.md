@@ -183,9 +183,6 @@ Okay, now create second Markdown file inside docs folder called Demo.md. Write t
 ```
 Now, see the project in the browser.
 
- ![](image/helloWorldImage.png)
- ![Image from alias](~@alias/helloWorldImage.png)
- 
 
 VuePress Markdown Tutorial
 
