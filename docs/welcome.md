@@ -6,7 +6,7 @@ title: Welcome to the VuePress + Netlify Example
     <img width="280" src="https://raw.githubusercontent.com/vuejs/vuepress/master/docs/.vuepress/public/hero.png" alt="logo" />
   </a>  
   
-  
+
 # VuePress
 
 *This is a Starter template for a [VuePress](https://vuepress.vuejs.org) site and it integrates the NetlifyCMS with VuePress. 
@@ -118,12 +118,15 @@ Go into your root folder, and open the terminal and hit the following command.
 ```bash
 npx vuepress dev docs  
 ```  
-Calling npx <command> when <command> isn’t already in your $PATH will automatically install a package with that name from the npm registry for you, and invoke it.  
+
+Calling npx when isn't already in your $PATH will automatically install a package with that name from the npm registry for you and invoke it.
+
 
 ``Switch to your browser and go to this URL: http://localhost:8080/``
 
 You can see the Hello World. Here # means h1 tag equivalent to **HTML**. It is simple Markdown syntax.
-You can add the scripts to **package.json** file.
+You can add the scripts to **package.json** file.  
+
 ```bash
 {
   "scripts": {
@@ -132,6 +135,7 @@ You can add the scripts to **package.json** file.
   }
 }  
 ```
+
 Now, stop the server by **control + c** and then start the server with the following command.
 
 ```bash
@@ -182,11 +186,6 @@ Okay, now create second Markdown file inside docs folder called Demo.md. Write t
 # This is second demo  
 ```
 Now, see the project in the browser.
-
- ![](./images/HelloWorldImage.png)
- ![](https://github.com/iwilfried/vuepress-boilerplate/blob/master/docs/.vuepress/public/images/HelloWorldImage.png)
-
-VuePress Markdown Tutorial
 
 You can see here, the content is displaying in the browser and after clicking that link, we can redirect to a new route, and that is **Demo.html**.   
 
