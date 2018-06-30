@@ -184,8 +184,8 @@ Okay, now create second Markdown file inside docs folder called Demo.md. Write t
 Now, see the project in the browser.
 
  ![An Image](image/helloWorldImage.png)
+ ![Image from alias](~@alias/helloWorldImage.png)
  
- ![](https://github.com/iwilfried/vuepress-boilerplate/blob/master/docs/.vuepress/public/images/HelloWorldImage.png)
 
 VuePress Markdown Tutorial
 

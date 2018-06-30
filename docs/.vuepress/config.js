@@ -4,6 +4,11 @@ module.exports = {
   themeConfig: {
     docsDir: 'docs',
     repo: 'iwilfried/vuepress-boilerplate'
-  }
-
+  },
+    resolve: {
+        alias: {
+            '@alias': '/public/images'
+        }
+    }
+}
 }
