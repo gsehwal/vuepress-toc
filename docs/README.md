@@ -1,6 +1,6 @@
 ---
 home: true 
-heroImage: /images/heroLogo.png
+heroImage: images/heroLogo.png
 actionText: Try it Out →
 actionLink: /welcome
 features:

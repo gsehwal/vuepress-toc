@@ -118,7 +118,7 @@ Go into your root folder, and open the terminal and hit the following command.
 ```bash
 npx vuepress dev docs  
 ```  
-Calling npx <command> when <command> isn’t already in your $PATH will automatically install a package with that name from the npm registry for you, and invoke it.  
+Calling npx   isn’t already in your $PATH will automatically install a package with that name from the npm registry for you, and invoke it.  
 
 ``Switch to your browser and go to this URL: http://localhost:8080/``
 
@@ -183,7 +183,8 @@ Okay, now create second Markdown file inside docs folder called Demo.md. Write t
 ```
 Now, see the project in the browser.
 
- ![](./images/HelloWorldImage.png)
+ ![An Image](image/helloWorldImage.png)
+ 
  ![](https://github.com/iwilfried/vuepress-boilerplate/blob/master/docs/.vuepress/public/images/HelloWorldImage.png)
 
 VuePress Markdown Tutorial

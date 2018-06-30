@@ -5,4 +5,5 @@ module.exports = {
     docsDir: 'docs',
     repo: 'iwilfried/vuepress-boilerplate'
   }
+
 }
