@@ -12,49 +12,14 @@ title: Welcome to the VuePress + Netlify Example
 *This is a Starter template for a [VuePress](https://vuepress.vuejs.org) site and it integrates the NetlifyCMS with VuePress. 
 VuePress is focused on content-centric static sites and provides features tailored for technical documentation out of the box.*
 
-## Requirements  
-
-::: tip
-*It is currently recommended to use Yarn instead of npm when installing VuePress into an **existing project** that has webpack 3.x as a dependency. Npm fails to generate the correct dependency tree in this case.*
-:::  
-
-You can check, if **Node**, **Yarn** and **Vuepress** is already installed: 
-```bash
-$ node --version  
-$ yarn --version  
-$ vuepress --version
-```  
-```bash
-$ node -v  
-v8.11.3
-```  
-If you see a version number on your screen then the software is installed.  
-Otherwise you need to download and install it.  
-
-## Installing Node, Yarn and VuePress  
-[Node Installation](https://nodejs.org/en/download/)  
-[Yarn Installation](https://yarnpkg.com/lang/en/docs/install/#windows-stable)  
-[VuePress Installation](https://www.npmjs.com/package/vuepress )  
 
 
-## Updating Node, Yarn and VuePress  
-[Node Update](https://nodejs.org/en/)  
-[Yarn Update](https://yarnpkg.com/en/docs/cli/upgrade)  
-[VuePress Update](https://www.npmjs.com/package/vuepress)  
 
-
-```bash
-nvm install 8.1.0 (any version number - nvm = Node Version Manager)
-yarn upgrade --latest
-yarn global add vuepress # OR npm install -g vuepress
-```
-
-
-# Quickstart 
+## Quickstart 
 
 Use the one-click deploy button and get a copy of this base-template as a repositary in your own GitHub account and additionally
-a live-server version on Netlify for free. Every change in the GitHub README.md file will then automatically get a change 
-on this server.
+a live-server version on Netlify for free. Every change in the GitHub **README.md** file will then automatically change 
+on this server too.
 
 ### [Life Demo on Netlify](https://nifty-williams-038c26.netlify.com/)
 
@@ -70,18 +35,20 @@ you can find under [vuepress.vuejs.org/guide/deploy](https://vuepress.vuejs.org/
 
 
 
-# Local Development - Getting Started  
+## Local Development - Getting Started  
 
 ### Step 1: Install VuePress.  
-Create a project directory called vpress.
+You need: Node (npm), Yarn, Vuepress, Git and an editor for your development. Read more...  
+
+Create a project directory called myProject.
 
 ```bash
-mkdir vpress
+mkdir myProject
 ```
 Go into that directory.  
 
 ```bash
-cd vpress
+cd myProject
 ```  
 
 I am using Yarn as a package manager, so let us pull the package using the following command.  
