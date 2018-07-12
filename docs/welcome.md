@@ -164,3 +164,94 @@ In future, we will build an entirely static website with the help of VuePress.
 
 ### Conclusion
 It is the perfect framework for the creating technical documentation and blog. It is server-side rendered so entirely SEO friendly. VuePress Tutorial For Beginners is over.
+
+-------------------------------------
+
+------------------------------------------
+
+# Getting Started
+It is the perfect framework for the creating technical documentation and blog. It is server-side rendered so entirely 
+SEO friendly.
+
+## Inside an Existing Project  
+
+If you have an existing project and would like to keep documentation inside the project, you should install VuePress 
+as a local dependency. This setup also allows you to use CI (Integration) or services like Netlify for **automatic deployment** on push.
+
+### Create a docs directory
+``mkdir docs``  
+
+
+<img src="http://res.cloudinary.com/iicamp/image/upload/v1531130948/VuePress/dir-structure-01.png" />
+
+::: warning
+It is currently recommended to use Yarn instead of npm when installing VuePress into an existing project 
+that has webpack 3.x as a dependency. Npm fails to generate the correct dependency tree in this case
+:::  
+
+
+### Install VuePress as a local dependency
+  
+| `` yarn add -D vuepress ``|  **or**  |  ``npm install -D vuepress ``|   
+
+<br />
+ 
+<img src="http://res.cloudinary.com/iicamp/image/upload/v1531132990/VuePress/dir-structure-02.png" />
+
+
+
+### Create README.md (index) file  
+
+``echo '# Hello VuePress' >docs/README.md``  
+
+<img src="http://res.cloudinary.com/iicamp/image/upload/v1531134493/VuePress/dir-structure-03.png" />
+
+The file-name for the first page must be **README.md**, because this is always the index-file
+
+
+Then, add some scripts to package.json:
+
+
+<img src="http://res.cloudinary.com/iicamp/image/upload/v1531143372/script-package_rwq2ym.png" />
+
+
+You can now start writing with:
+
+```bash
+yarn docs:dev # OR npm run docs:dev  
+```  
+
+To generate static assets, run:
+
+```bash
+yarn docs:build # Or npm run docs:build  
+```
+By default the built files will be in **.vuepress/dist**, which can be configured via the **dest** field 
+in **.vuepress/config.js**. The built files can be deployed to any static file server. 
+
+<img src="http://res.cloudinary.com/iicamp/image/upload/v1531144645/dir-structure-04_wm3pyq.png" /> 
+ 
+See [Deployment Guide](https://vuepress.vuejs.org/guide/deploy.html#github-pages) 
+for guides on deploying to popular services.  
+
+
+
+
+
+## Quickstart 
+
+Use the one-click deploy button and get a copy of this base-template as a repositary in your own GitHub account and additionally
+a live-server version on Netlify for free. Every change in the GitHub **README.md** file will then automatically change 
+on this server too.
+
+### [Life Demo on Netlify](https://nifty-williams-038c26.netlify.com/)
+
+
+## One-Click Deploy
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/iwilfried/vuepress-boilerplate)
+
+Documentation of other free server deployments like GitHub Pages, Gitlab Pages, Gitlab CLI, Google Firebase, Surge, Heroku 
+you can find under [vuepress.vuejs.org/guide/deploy](https://vuepress.vuejs.org/guide/deploy.html)
+
+``If you edit the files in Github direct, the changes are automatically done on the server too.``
