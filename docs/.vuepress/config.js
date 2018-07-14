@@ -4,5 +4,12 @@ module.exports = {
   themeConfig: {
     docsDir: 'docs',
     repo: 'iwilfried/vuepress-boilerplate'
-  }
-}
+  },
+  markdown: {
+	  // options for markdown-it-anchor
+    anchor: { permalink: false },
+	includeLevel: { [1, 2, 3] } 
+
+};
+
+
