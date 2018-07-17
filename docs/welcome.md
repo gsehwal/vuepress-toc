@@ -13,7 +13,8 @@ title: Welcome to the VuePress + TOC component
 VuePress is focused on content-centric static sites and provides features tailored for technical documentation out of the box.*
 
 
-# Table of Contents
+# Table of Contents  
+
 
 [[toc]]
 

@@ -1,15 +1,21 @@
 module.exports = {
-  title: 'VuePress Boilerplate',
+  title: 'VuePress ',
   description: 'VuePress Project Documentation System',
-  themeConfig: {
-    docsDir: 'docs',
-    repo: 'iwilfried/vuepress-boilerplate'
-  },
-  markdown: {
-	  // options for markdown-it-anchor
+
+    
+
+ markdown: {
+    // options for markdown-it-anchor
+    
+  // options for markdown-it-anchor
     anchor: { permalink: false },
-	includeLevel: { [1, 2, 3] } 
-
-};
-
+    // options for markdown-it-toc
+    toc: { includeLevel: [1, 2] },
+	
+    config: md => {
+      // use more markdown-it plugins!
+      md.use(require("markdown-it-table-of-contents"), [1,2]);
+    }
+  }
+}
 
