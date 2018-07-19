@@ -22,7 +22,18 @@ VuePress is focused on content-centric static sites and provides features tailor
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
 Lorem Ipsum has ...
 
-# test
+# test  
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+of classical Latin literature...   
+
+## The standard chunk of Lorem Ipsum 
+used since the 1500s is reproduced below for those interested. 
+Sections 1.10.32 and 1.10.33 from "de Finibus... 
+
+# test  
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
+of classical Latin literature... 
+
 ### Where does it come from?
 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
 of classical Latin literature...
@@ -39,7 +50,7 @@ of classical Latin literature...
 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
 of classical Latin literature...  
 
-## [markdown.toc](https://www.npmjs.com/package/markdown-it)  
+
 
 [markdown packages](https://www.npmjs.com/search?q=keywords:markdown-it-plugin)  
  
