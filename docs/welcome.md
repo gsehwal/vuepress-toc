@@ -13,8 +13,8 @@ title: Welcome to the VuePress + TOC component
 VuePress is focused on content-centric static sites and provides features tailored for technical documentation out of the box.*
 
 
-# Table of Contents  
-
+<p style="font-size:1.6rem;color:green;-webkit-margin-after: 0.1em;">Table of Contents</p>  
+<hr>  
 
 [[toc]]
 
@@ -22,15 +22,15 @@ VuePress is focused on content-centric static sites and provides features tailor
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
 Lorem Ipsum has ...
 
-# test  
+## Popular belief 
 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
 of classical Latin literature...   
 
-## The standard chunk of Lorem Ipsum 
+### The standard chunk of Lorem Ipsum 
 used since the 1500s is reproduced below for those interested. 
 Sections 1.10.32 and 1.10.33 from "de Finibus... 
 
-# test  
+## Contrary  
 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
 of classical Latin literature... 
 
@@ -38,11 +38,11 @@ of classical Latin literature...
 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
 of classical Latin literature...
 
-## The standard chunk of Lorem Ipsum 
+#### The standard chunk of Lorem Ipsum 
 used since the 1500s is reproduced below for those interested. 
 Sections 1.10.32 and 1.10.33 from "de Finibus...
 
-### Where does it come from?
+#### Where does it come from?
 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece 
 of classical Latin literature...  
 
