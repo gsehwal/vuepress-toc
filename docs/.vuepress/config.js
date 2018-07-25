@@ -1,6 +1,8 @@
 module.exports = {
   title: "VuePress ",
   description: "VuePress Project Documentation System",
+  base: "/vuepress-toc/",
+  dest: "public",
 
   markdown: {
     // options for markdown-it-anchor
