@@ -15,30 +15,30 @@ $ yarn dev  # OR npm run dev
 $ yarn build  # OR npm run build  (-> .vuepress/dist)
 ```
 
-Check your site at `http://127.0.0.1:8080/`  or `localhost://8080`
+Check your site at `http://127.0.0.1:8080/` or `localhost://8080`
 
 <br />
 
-## Review of the files in the project-directory 
+## Review of the files in the project-directory
 
 .  
 |---gitignore  
 |---LICENSE  
 |---README.md  
 |---**docs**  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---README.md   
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---README.md  
 |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---welcome.md  
 |---netlify.toml  
 |---package.json  
-|---yarn.lock  
+|---yarn.lock
 
 <br />  
 
-Let's start by explaining the meaning of some of these files.  
+Let's start by explaining the meaning of some of these files.
 
-If you want to use the **One-Click Deploy** option, then Netlify needs a `netlify.toml` file.  
+If you want to use the **One-Click Deploy** option, then Netlify needs a `netlify.toml` file.
 
-### netlify.toml  
+### netlify.toml
 
 ```bash
 [build]  
@@ -48,10 +48,9 @@ publish = "docs/.vuepress/dist/"
 
 This file is used by netlify on deployment. Netlify pulls code from your github repo, and will run command to generate your static site. Once it's complete publish tells it where the public directory is to launch your site.
 
+### package.json
 
-### package.json  
-
-```bash  
+```bash
 {
   "scripts": {
     "docs:dev": "vuepress dev docs",
@@ -65,24 +64,16 @@ This file is used by netlify on deployment. Netlify pulls code from your github 
 
 This file is the standard VuePress settings that you would have if you followed the official Vue Press installation guide.
 
-### /docs  
+### /docs
 
 |---**docs**  
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---README.md   
-|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---welcome.md  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---README.md  
+|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|---welcome.md
 
 <br />  
 
-Lastly, the docs folder contains actual markdown files that will make up the content of our site itself. These files are committed to github, and netlify's cms will work with these via a CMS that we will have setup by the end of this tutorial.  
+Lastly, the docs folder contains actual markdown files that will make up the content of our site itself. These files are committed to github, and netlify's cms will work with these via a CMS that we will have setup by the end of this tutorial.
 
-If you review these files, note that README.md is different than the other two because it's serving as the home page for the site. VuePress reads front matter to configure this post differently. There are a lot more options you can configure using these properties but I'll leave that to you to read the VuePress docs.  
-
-
-
-
-
-
-
-
+If you review these files, note that README.md is different than the other two because it's serving as the home page for the site. VuePress reads front matter to configure this post differently. There are a lot more options you can configure using these properties but I'll leave that to you to read the VuePress docs.
 
 For more information, see [VuePress Docs](https://vuepress.vuejs.org)

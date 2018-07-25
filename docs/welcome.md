@@ -6,6 +6,7 @@ title: Welcome to the VuePress + TOC component
 <a href="https://vuepress.vuejs.org/" target="_blank" rel="nofollow">
     <img width="280" src="https://raw.githubusercontent.com/vuejs/vuepress/master/docs/.vuepress/public/hero.png" alt="logo" />
   </a>  
+
 # VuePress
 
 _This is a Starter template for a [VuePress](https://vuepress.vuejs.org) site and it integrates the NetlifyCMS with VuePress.
@@ -21,7 +22,7 @@ export default{
 }
 </script>
 
-<p><button @click="active=!active" class="button">Show/Hide</button></p>
+<div><button @click="active=!active" class="button">Show / Hide</button></div>
 
 <div>
 
@@ -39,8 +40,6 @@ export default{
 
 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
 Lorem Ipsum has ...
-
-## Popular belief
 
 Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece
 of classical Latin literature...
