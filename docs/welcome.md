@@ -27,7 +27,7 @@ export default{
 <div>
 
 <div class="toc" v-if="active">
-<p style="font-size:1.6rem;color:green;-webkit-margin-after: 0.1em;">Table of Contents</p>  
+<p  class="toc">Table of Contents</p>  
 
 <hr>  
 
@@ -127,6 +127,7 @@ VuePress uses [markdown-it](https://github.com/markdown-it/markdown-it) as the m
 A lot of the extensions above are implemented via custom plugins. You can further customize the `markdown-it`
 instance using the `markdown` option in `.vuepress/config.js`
 
+```
 module.exports = {
 markdown: {
 // options for markdown-it-anchor
@@ -139,3 +140,4 @@ md.use(require('markdown-it-xxx'))
 }
 }
 }
+```
