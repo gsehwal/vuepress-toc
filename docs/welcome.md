@@ -12,7 +12,7 @@ title: Welcome to the VuePress + TOC component
 _This is a Starter template for a [VuePress](https://vuepress.vuejs.org) site and it integrates the NetlifyCMS with VuePress.
 VuePress is focused on content-centric static sites and provides features tailored for technical documentation out of the box._
 
-<script>
+<script\>
 export default{
   data(){
     return{
@@ -20,7 +20,7 @@ export default{
     }
   }
 }
-</script>
+</script\>
 
 <div><button @click="active=!active" class="button">Show / Hide</button></div>
 
