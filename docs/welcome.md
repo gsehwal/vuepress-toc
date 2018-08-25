@@ -2,7 +2,7 @@
 title: Welcome to the VuePress + TOC component 
 
 ---
-
+<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
 <a href="https://vuepress.vuejs.org/" target="_blank" rel="nofollow">
     <img width="280" src="https://raw.githubusercontent.com/vuejs/vuepress/master/docs/.vuepress/public/hero.png" alt="logo" />
   </a>  
@@ -13,6 +13,11 @@ _This is a Starter template for a [VuePress](https://vuepress.vuejs.org) site an
 VuePress is focused on content-centric static sites and provides features tailored for technical documentation out of the box._
 
 <script>
+import Vue from 'vue'
+import { MdButton } from 'vue-material/dist/components'
+import 'vue-material/dist/vue-material.min.css'
+
+Vue.use(MdButton);
 export default{
   data(){
     return{
@@ -23,7 +28,7 @@ export default{
 </script>
 
 <div>
-<div><button @click="active=!active" class="button">Show / Hide</button></div>
+<div><md-button @click="active=!active" class="button">Show / Hide</md-button></div>
 <p class="toc">Table of Contents</p> 
 <div class="toc" v-if="active">  
 

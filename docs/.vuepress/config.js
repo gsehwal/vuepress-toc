@@ -14,5 +14,6 @@ module.exports = {
         includeLevel: [1, 2, 3]
       });
     }
-  }
+  },
+
 };
