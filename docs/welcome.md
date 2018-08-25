@@ -22,14 +22,10 @@ export default{
 }
 </script>
 
-<div><button @click="active=!active" class="button">Show / Hide</button></div>
-
 <div>
-
-<div class="toc" v-if="active">
-<p  class="toc">Table of Contents</p>  
-
-<hr>  
+<div><button @click="active=!active" class="button">Show / Hide</button></div>
+<p class="toc">Table of Contents</p> 
+<div class="toc" v-if="active">  
 
 [[toc]]
 
